@@ -10,3 +10,12 @@ Docker-compose file to run an instance of sidermit app
 1. Open terminal and got to project folder
 1. Execute command `docker-compose -f docker-compose.yml up`
 1. go to [http://localhost:8000/](http://localhost:8000/)
+
+
+## Update version
+
+If a new version of project was released you should follow next steps:
+
+1. Stop running current docker-compose command with `ctrl + c` (if it's running)
+1. Execute command `docker-compose pull` and wait
+1. Start program again `docker-compose -f docker-compose.yml up`
