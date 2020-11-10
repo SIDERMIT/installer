@@ -19,3 +19,9 @@ If a new version of project was released you should follow next steps:
 1. Stop running current docker-compose command with `ctrl + c` (if it's running)
 1. Execute command `docker-compose pull` and wait
 1. Start program again `docker-compose -f docker-compose.yml up`
+
+# Faqs
+
+## Hardware assisted virtualization and data execution protection must be enable in the BIOS
+
+If you see this message on computer where docker is installing you need to follow instructions in this video: [click here](https://www.youtube.com/watch?v=MOuTxfzCvMY&ab_channel=Triple-ATechSolutions)
